@@ -8,7 +8,7 @@ function dbg()
 		echo '#' . ($k + 1) . sep();
 		echo pre();
 		var_dump($arg);
-		echo pre() . sep();
+		echo pre(true) . sep();
 	}
 }
 
